@@ -1,9 +1,6 @@
 package com.winterbe.java8.samples.test;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Testing {
@@ -22,6 +19,15 @@ public class Testing {
         System.out.println("-------------");
         List<String> sort = list.stream().sorted().collect(Collectors.toList());
         sort.stream().forEach(l-> System.out.println(l));
+
+        List<String> test = new ArrayList<>(list);
+        Set<String> set1 = new HashSet<>();
+        Map<String, String> map = new HashMap<>();
+
+        System.out.println(test);
+
+        String s;
+        char[] v;
 
     }
 }
