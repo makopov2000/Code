@@ -22,14 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/com/amgen/blueprint/blueprint-apt/1.0.1-SNAPSHOT/blueprint-apt-1.0.1-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.amgen.blueprint"/>
-			<attribute name="maven.artifactId" value="blueprint-apt"/>
-			<attribute name="maven.version" value="1.0.1-SNAPSHOT"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
