@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 /**
  * @author Benjamin Winterberg
  */
-public class Executors2 {
+public class ExecutorsFuture {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
 //        test1();
@@ -55,6 +55,7 @@ public class Executors2 {
                 String n = z.getLastName().toUpperCase();
                 z.setLastName(n);
 //                m.add(z);
+                System.out.println("For Each z: "+z+" ->Thread: "+Thread.currentThread().getName());
                 return z;
             });
             try {
@@ -115,7 +116,10 @@ public class Executors2 {
     }
 
     public static class emp {
-        public emp(String firstName, String lastName) {
+        String firstName;
+        String lastName;
+    	
+		public emp(String firstName, String lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
         }
@@ -143,9 +147,6 @@ public class Executors2 {
         public void setLastName(String lastName) {
             this.lastName = lastName;
         }
-
-        String firstName;
-String lastName;
 
     }
 }

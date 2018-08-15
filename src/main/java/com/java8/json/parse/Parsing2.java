@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Paesing2 {
+public class Parsing2 {
 	static String array2 = 
 			"% of Underdose: Site=0.0%; Study=10.4%; 0 subjects were underdosed (<74.8%); 0 subjects extreme outlier (<59.6%);% of TargetDose : Site= 68.0%; Study=100.0%";
  

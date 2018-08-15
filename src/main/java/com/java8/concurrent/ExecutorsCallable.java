@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author Benjamin Winterberg
  */
-public class Executors3 {
+public class ExecutorsCallable {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 //        futureGetDelay();
