@@ -13,5 +13,97 @@
 			<attribute name="maven.optionaldependency" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="C:/Users/makopov/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-lang"/>
+			<attribute name="maven.artifactId" value="commons-lang"/>
+			<attribute name="maven.version" value="2.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="C:/Users/makopov/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-collections"/>
+			<attribute name="maven.artifactId" value="commons-collections"/>
+			<attribute name="maven.version" value="3.2.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar" sourcepath="C:/Users/makopov/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="httpcore-4.4.10.jar"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+			<attribute name="maven.artifactId" value="httpcore"/>
+			<attribute name="maven.version" value="4.4.10"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar" sourcepath="C:/Users/makopov/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.fasterxml.jackson.core"/>
+			<attribute name="maven.artifactId" value="jackson-databind"/>
+			<attribute name="maven.version" value="2.8.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/com/jcraft/jsch/0.1.42/jsch-0.1.42.jar" sourcepath="C:/Users/makopov/.m2/repository/com/jcraft/jsch/0.1.42/jsch-0.1.42-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.jcraft"/>
+			<attribute name="maven.artifactId" value="jsch"/>
+			<attribute name="maven.version" value="0.1.42"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4.jar" sourcepath="C:/Users/makopov/.m2/repository/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+			<attribute name="maven.artifactId" value="httpclient"/>
+			<attribute name="maven.version" value="4.5.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/org/jasypt/jasypt/1.9.0/jasypt-1.9.0.jar" sourcepath="C:/Users/makopov/.m2/repository/org/jasypt/jasypt/1.9.0/jasypt-1.9.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.jasypt"/>
+			<attribute name="maven.artifactId" value="jasypt"/>
+			<attribute name="maven.version" value="1.9.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar" sourcepath="C:/Users/makopov/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.fasterxml.jackson.core"/>
+			<attribute name="maven.artifactId" value="jackson-core"/>
+			<attribute name="maven.version" value="2.8.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" sourcepath="C:/Users/makopov/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.googlecode.json-simple"/>
+			<attribute name="maven.artifactId" value="json-simple"/>
+			<attribute name="maven.version" value="1.1.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/makopov/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar" sourcepath="C:/Users/makopov/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+			<attribute name="maven.artifactId" value="commons-collections4"/>
+			<attribute name="maven.version" value="4.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

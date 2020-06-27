@@ -1,6 +1,6 @@
 package com.java8.util;
 
-import javafx.beans.property.Property;
+//import javafx.beans.property.Property;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;

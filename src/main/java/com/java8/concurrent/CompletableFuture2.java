@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 import org.apache.commons.collections.functors.ForClosure;
 import org.apache.commons.lang.Validate;
 import org.apache.http.MethodNotSupportedException;
-import org.omg.CORBA.PUBLIC_MEMBER;
+//import org.omg.CORBA.PUBLIC_MEMBER;
 
 public class CompletableFuture2 {
 //	static List<Integer> ageList = new ArrayList<>();
