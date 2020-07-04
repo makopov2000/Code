@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-public class Partition2 {
+public class PartitionBySizeOfList1 {
 
 	public static void main(String[] args) {
 		List<Integer> intList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8);
