@@ -9,8 +9,6 @@ import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import com.example.unix.function.Address;
-import com.example.unix.function.Employee;
 
 public class anything {
 	static List<Employee> employeeListBland = new ArrayList<>();

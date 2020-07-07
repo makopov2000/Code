@@ -7,8 +7,8 @@ public class FindPairEqualToGivenNumberMain {
  
 	public static void main(String[] args) {
 		int array[] = { -40, -5, 1, 3, 6, 7, 8, 20 };
-		findPairsWithSumEqualsToXBruteForce(array, 15);
-		findPairsEqualsToX(array, 15);
+//		findPairsWithSumEqualsToXBruteForce(array, 15);
+//		findPairsEqualsToX(array, 15);
 		findPairsEqualsToXUsingHashing(array, 15);
 		
 	}
@@ -61,6 +61,9 @@ public class FindPairEqualToGivenNumberMain {
 		for (int i = 0; i < arr.length; i++) {
 			// we have used elementIndexMap.get(X-arr[i])!=i to avoid using same
 			// element twice
+			int z = X-arr[i];
+			Integer y = elementIndexMap.get(X - arr[i]);
+
 			if (elementIndexMap.get(X - arr[i]) != null && elementIndexMap.get(X - arr[i]) != i) //
 			{
 				System.out.println(arr[i] + " " + (X - arr[i]));

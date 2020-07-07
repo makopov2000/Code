@@ -13,11 +13,13 @@ public class CountOccurrencesOfSubstringExample {
         while ((fromIndex = str.indexOf(strFind, fromIndex)) != -1 ){
  
             System.out.println("Found at index: " + fromIndex);
+            System.out.println(str.substring(fromIndex, fromIndex+4));
             count++;
             fromIndex++;
             
         }
         
         System.out.println("Total occurrences: " + count);
+      
     }
 }

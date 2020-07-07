@@ -3,10 +3,10 @@ package com.java8.String;
 public class ShortestCommonSuperstringAlgorithm_2 {
 
 	public static void main(String args[]) {
-//		String X = "AGGTAB";
-//		String Y = "GXTXAYB";
-		String X = "bcdbcdbcdbcd";
-		String Y = "bcdbcd";
+		String X = "AGGTAB";
+		String Y = "GXTXAYB";
+//		String X = "bcdbcdbcdbcd";
+//		String Y = "bcdbcd";
 		
 		System.out.println("Length of the shortest" + "supersequence is: " + superSeq(X, Y, X.length(), Y.length()));
 	}

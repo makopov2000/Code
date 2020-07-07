@@ -9,6 +9,7 @@ import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.*;
 
 public class ListOfObjectsToMap {
+
 	public static final List<Winner> tdfWinners = Arrays.asList(
 			new Winner(2006, "Spain", "Óscar Pereiro", "Caisse d'Epargne–Illes Balears", 3657, Duration.parse("PT89H40M27S"), 8),
 			new Winner(2007, "Spain", "Alberto Contador", "Discovery Channel", 3570, Duration.parse("PT91H00M26S"), 4),
@@ -23,10 +24,13 @@ public class ListOfObjectsToMap {
 			new Winner(2016, "Great Britain", "Chris Froome", "Team Sky", 3529, Duration.parse("PT89H04M48S"), 14 )
 			);
 	
-    Map<String, List<Winner>> namesVsWinner = tdfWinners
+    static Map<String, List<Winner>> namesVsWinner = tdfWinners
             .stream()
 			 .collect(groupingBy(Winner::getName));
     
+	public static void main(String[] args) {
+		namesVsWinner.entrySet().forEach(r->System.out.println("Key: "+r.getKey()+" and Value: "+r.getValue() ));
+	}
   
 }
 
@@ -49,6 +53,15 @@ public class ListOfObjectsToMap {
         this.winningTime = winningTime;
         this.daysInYellow = daysInYellow;
     }
+    
+
+	@Override
+	public String toString() {
+		return "Winner [year=" + year + ", nationality=" + nationality + ", name=" + name + ", team=" + team
+				+ ", lengthKm=" + lengthKm + ", winningTime=" + winningTime + ", stageWins=" + stageWins
+				+ ", daysInYellow=" + daysInYellow + "]";
+	}
+
 
 	public int getYear() {
 		return year;

@@ -3,12 +3,12 @@ package com.java8.String;
 public class LongestCommonSubstringMain {
 
 	public static void main(String[] args) {
-//		String str1="Java2blog";
-//		String str2="CoreJavaTutorial";
+		String str1="Java2blog";
+		String str2="CoreJavaTutorial";
 //		String str1="bcdbcdbcdbcd";
 //		String str2="bcdbcd";
-		String str1="mike";
-		String str2="mice";
+//		String str1="mike";
+//		String str2="mice";
 		
 		LongestCommonSubstringMain lcsMain=new LongestCommonSubstringMain();
 		System.out.println("String 1: "+str1);
