@@ -13,6 +13,7 @@ public class LoadPropWithinClasspath {
 	public static void main(String[] args) throws IOException {
 		LoadPropWithinClasspath x = new LoadPropWithinClasspath();
 		String user = x.getPropValues();
+		
 	}
  
 	public String getPropValues() throws IOException {

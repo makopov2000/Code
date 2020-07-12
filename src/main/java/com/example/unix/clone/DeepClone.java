@@ -1,10 +1,14 @@
 package com.example.unix.clone;
 
+import java.io.IOException;
+
 import com.example.unix.clone.Employee;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class DeepClone {
 
-	public static void main(String[] args) throws CloneNotSupportedException {
+	public static void main(String[] args) throws CloneNotSupportedException, IOException {
 		
 		 System.out.println("*****************  CLONE SHlow ****************** ");
 		 
@@ -40,6 +44,24 @@ public class DeepClone {
 			 
 			 System.out.println("+++ empD after change: "+ empD.toString());
 			 System.out.println("+++ empCloneD after change: "+ empCloneD.toString());
+			 
+			 System.out.println("*****************  CLONE JSON Deep ****************** ");
+			 ObjectMapper mapper = new ObjectMapper();
+				EmployeeAddress empAddressJ=new EmployeeAddress("22","Avenue Street", "Dallas");
+				
+				 Employee empJ=new Employee("David", 32,100.00, empAddressJ);
+				 String empString = mapper.writeValueAsString(empJ);				 
+				 Employee empCloneJ=mapper.readValue(empString, Employee.class);
+				 System.out.println("+++ empJ before change: "+ empJ.toString());
+				 System.out.println("+++ empCloneJ before change: "+ empCloneJ.toString());
+				 
+				 empJ.setAge(66);
+				 empJ.getAddress().setCity("Glendale");
+				 
+				 System.out.println("+++ empJ after change: "+ empJ.toString());
+				 System.out.println("+++ empCloneJ after change: "+ empCloneJ.toString());
+				 
+			 
 	}
 
 }

@@ -1,8 +1,5 @@
 package com.java8.list.stream;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 
 public class MerchantSales {

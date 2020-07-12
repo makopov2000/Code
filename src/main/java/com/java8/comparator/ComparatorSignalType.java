@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.apache.commons.lang.builder.CompareToBuilder;
 
+
 public class ComparatorSignalType {
 	private int				sortIndex;
 	private String			name;
