@@ -4,6 +4,8 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.TreeMap;
 
+import com.java8.Map.Entity.Employee;
+
 public class Sort_Comparator_Map {
 
 public static void main(String[] args) {
