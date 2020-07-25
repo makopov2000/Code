@@ -1,0 +1,24 @@
+package com.java8.List_2;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Count_Duplicate_Entries_In_List {
+
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<String>();
+		list.add("aaa");
+		list.add("bbb");
+		list.add("aaa");
+		
+		Set<String> unique = new HashSet<String>(list);
+		for (String key : unique) {
+		    System.out.println(key + ": " + Collections.frequency(list, key));
+		}
+
+	}
+
+}

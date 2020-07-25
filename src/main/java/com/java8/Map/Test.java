@@ -12,6 +12,10 @@ public class Test {
 		
 		map.entrySet().forEach(r -> System.out.println(r.getKey()+"-"+r.getValue()));
 		
+		Employee emp1 = new Employee("mike");
+		Employee emp2 = new Employee("mike");
+		System.out.println(emp1.equals(emp2));
+		
 
 	}
 

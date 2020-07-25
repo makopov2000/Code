@@ -4,7 +4,7 @@ import javax.script.Invocable;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 
-import com.java8.lambda.Person;
+import com.java8.Lambda.Person;
 
 import java.io.FileReader;
 import java.time.LocalDateTime;

@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.example.unix.List.Entity.User;
+import com.java8.List_2.Entity.User;
 
 /**
  * @author Benjamin Winterberg

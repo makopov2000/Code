@@ -5,7 +5,7 @@ import jdk.nashorn.api.scripting.NashornScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
-import com.java8.lambda.Person;
+import com.java8.Lambda.Person;
 
 /**
  * @author Benjamin Winterberg
