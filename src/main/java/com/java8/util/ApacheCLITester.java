@@ -6,7 +6,7 @@ package com.java8.util;
 //	import org.apache.commons.cli.Options;
 //	import org.apache.commons.cli.ParseException;
 //
-//	public class ApacheCLITester {
+	public class ApacheCLITester {
 //	   public static void main(String[] args) throws ParseException {
 //
 //	      //***Definition Stage***
@@ -50,4 +50,4 @@ package com.java8.util;
 //	      } 
 //	      return multiplication;
 //	   }
-//	}
+	}

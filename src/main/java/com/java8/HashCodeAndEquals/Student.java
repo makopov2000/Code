@@ -1,13 +1,13 @@
 package com.java8.HashCodeAndEquals;
 
 public class Student {
-    private int id;
+    private Integer id;
     private String name;
     public Student(int id, String name) {
         this.name = name;
         this.id = id;
     }
-    public int getId() {
+    public Integer getId() {
         return id;
     }
     public void setId(int id) {
@@ -19,6 +19,7 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+    
     ///////////////////   1! way /////////////////////
 //    @Override
 //    public boolean equals(Object obj) {
@@ -54,7 +55,12 @@ public class Student {
 //    	return result; 
 //    	}
 
-   //////////////////// 3 way /////////////////
+   @Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + "]";
+//		return "(" + getId() + " => " + getName() + ")";
+	}
+	//////////////////// 3 way /////////////////
     @Override
     public boolean equals(Object o) {
 

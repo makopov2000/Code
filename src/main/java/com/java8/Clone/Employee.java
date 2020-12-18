@@ -2,7 +2,7 @@ package com.java8.Clone;
 
 import java.io.Serializable;
 
-public class Employee implements Cloneable, Serializable {
+public class Employee extends Domain {
 	private static final long serialVersionUID = 1L;
 
 	@Override
