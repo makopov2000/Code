@@ -54,8 +54,8 @@ public class Contains_No_Equal_Override {
 		
 //		Student c1 = new Student(2, "Jack");
 //		Student c2 = new Student(6, "Mike");
-		System.out.println("C1: "+aListStudents.contains(c1));
-		System.out.println("C2: "+aListStudents.contains(c2));
+		System.out.println("C1 object Jack: "+aListStudents.contains(c1));
+		System.out.println("C2 object Mike: "+aListStudents.contains(c2));
 		if(aListStudents.indexOf(c1) != -1) {
 			System.out.println("C1 again: CONTAIN");
 			} else {System.out.println("C1 again: NOT CONTAIN");}

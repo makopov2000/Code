@@ -8,7 +8,7 @@ public class Sort_Array {
 	public static void main(String[] args) {
 		
 		int[]a = {1,0,2,0,0,1,2,2,1};
-		
+
 //		// internal sort
 //		Arrays.sort(a);		
 //	       for (int n: a) {
